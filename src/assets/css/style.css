@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --primary: #f8f0e5;
+  --secondary: #eadbc8;
+  --tertiary: #dac0a3;
+  --quaternary: #0f2c59;
+}
+
+html,
+body {
+  min-height: 100vh;
+  background: linear-gradient(#f8f0e5, #eadbc8);
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.text-quaternary {
+  color: var(--quaternary);
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+
+.secondary-bg {
+  background-color: var(--secondary);
+}
+
+.tertiary-bg {
+  background-color: var(--tertiary);
+}
+
+.quaternary-bg {
+  background-color: var(--quaternary);
+}
